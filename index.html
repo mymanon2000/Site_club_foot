@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FC Horizon — Club de Football</title>
+  <meta name="description" content="Site officiel du FC Horizon : équipes, entraînements, inscription, contact." />
+
+  <!-- CSS externe -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <div class="brand">
+        <!-- Option A : logo en ligne -->
+        <img
+          class="logo"
+          src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=200&q=60"
+          alt="Logo du FC Horizon"
+          loading="lazy"
+        />
+
+        <!-- Option B : logo local (décommente si tu mets un fichier dans /images)
+        <img class="logo" src="images/logo-fc-horizon.png" alt="Logo du FC Horizon" />
+        -->
+
+        <div class="brand-text">
+          <p class="club-name">FC Horizon</p>
+          <p class="club-tagline">Passion • Esprit d’équipe • Formation</p>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="#presentation">Présentation</a>
+        <a href="#equipes">Équipes</a>
+        <a href="#entrainements">Entraînements</a>
+        <a href="#matchs">Matchs</a>
+        <a href="#inscription">Inscription</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Bienvenue au FC Horizon</h1>
+          <p class="lead">
+            Un club ouvert à toutes et tous, du débutant au compétiteur.
+            Rejoins-nous pour progresser, partager et vibrer ensemble.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#inscription">S’inscrire</a>
+            <a class="btn btn-secondary" href="#entrainements">Voir les entraînements</a>
+          </div>
+
+          <ul class="badges" aria-label="Infos clés">
+            <li>🏟️ Stade Municipal</li>
+            <li>⚽ Jeunes • Seniors • Féminines • Loisir</li>
+            <li>📅 Matchs le week-end</li>
+          </ul>
+        </div>
+
+        <div class="hero-media" aria-label="Photos du club">
+          <figure class="card-image">
+            <img
+              src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1200&q=70"
+              alt="Match de football sur un terrain"
+              loading="lazy"
+            />
+            <figcaption>Une équipe, une famille.</figcaption>
+          </figure>
+          <figure class="card-image">
+            <img
+              src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?auto=format&fit=crop&w=1200&q=70"
+              alt="Ballon de football sur la pelouse"
+              loading="lazy"
+            />
+            <figcaption>Entraînements toute la semaine.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRESENTATION -->
+    <section class="section" id="presentation">
+      <div class="container">
+        <header class="section-header">
+          <h2>Présentation</h2>
+          <p>Notre mission : former, fédérer et faire plaisir, sur et en dehors du terrain.</p>
+        </header>
+
+        <div class="grid-3">
+          <article class="card">
+            <h3>Nos valeurs</h3>
+            <ul class="list">
+              <li>Respect (adversaires, arbitres, coéquipiers)</li>
+              <li>Engagement & solidarité</li>
+              <li>Formation des jeunes</li>
+              <li>Plaisir de jouer</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Le club</h3>
+            <p>
+              Créé pour rassembler autour du football, le FC Horizon propose un cadre
+              convivial et exigeant, avec des éducateurs et bénévoles engagés.
+            </p>
+            <p class="note">Essai gratuit : 1 à 2 séances selon la catégorie.</p>
+          </article>
+
+          <article class="card">
+            <h3>Infos rapides</h3>
+            <dl class="facts">
+              <div><dt>Lieu</dt><dd>Stade Municipal</dd></div>
+              <div><dt>Public</dt><dd>Débutants à confirmés</dd></div>
+              <div><dt>Ambiance</dt><dd>Familiale & compétitive</dd></div>
+            </dl>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EQUIPES -->
+    <section class="section alt" id="equipes">
+      <div class="container">
+        <header class="section-header">
+          <h2>Équipes</h2>
+          <p>Des catégories pour chaque âge et niveau.</p>
+        </header>
+
+        <div class="grid-4">
+          <article class="tile">
+            <h3>École de foot</h3>
+            <p>U7–U11</p>
+          </article>
+          <article class="tile">
+            <h3>Jeunes</h3>
+            <p>U13–U18</p>
+          </article>
+          <article class="tile">
+            <h3>Seniors</h3>
+            <p>D1 / D2 (selon saison)</p>
+          </article>
+          <article class="tile">
+            <h3>Loisir & Féminines</h3>
+            <p>Amicaux + progression</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ENTRAINEMENTS -->
+    <section class="section" id="entrainements">
+      <div class="container">
+        <header class="section-header">
+          <h2>Entraînements</h2>
+          <p>Horaires (exemple) — adapte facilement selon ton club.</p>
+        </header>
+
+        <div class="table-card">
+          <table>
+            <thead>
+              <tr>
+                <th>Catégorie</th>
+                <th>Jour</th>
+                <th>Heure</th>
+                <th>Terrain</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>École de foot</td>
+                <td>Mercredi</td>
+                <td>14h00 – 15h30</td>
+                <td>Terrain B</td>
+              </tr>
+              <tr>
+                <td>Jeunes</td>
+                <td>Mardi & Jeudi</td>
+                <td>18h00 – 19h30</td>
+                <td>Terrain A</td>
+              </tr>
+              <tr>
+                <td>Seniors</td>
+                <td>Mercredi & Vendredi</td>
+                <td>20h00 – 22h00</td>
+                <td>Terrain A</td>
+              </tr>
+              <tr>
+                <td>Loisir</td>
+                <td>Lundi</td>
+                <td>19h30 – 21h00</td>
+                <td>Terrain B</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="hint">À prévoir : protège-tibias, gourde, chaussures adaptées.</p>
+      </div>
+    </section>
+
+    <!-- MATCHS -->
+    <section class="section alt" id="matchs">
+      <div class="container">
+        <header class="section-header">
+          <h2>Matchs</h2>
+          <p>Résultats récents (exemple) et infos match à domicile.</p>
+        </header>
+
+        <div class="grid-2">
+          <article class="card">
+            <h3>Derniers résultats</h3>
+            <ol class="list">
+              <li>FC Horizon 2 — 1 AS Vallon</li>
+              <li>RC Monts 0 — 0 FC Horizon</li>
+              <li>FC Horizon 3 — 2 US Rivière</li>
+            </ol>
+          </article>
+
+          <article class="card">
+            <h3>Prochain match à domicile</h3>
+            <p><strong>Dimanche</strong> — 15h00 — Stade Municipal</p>
+            <p class="note">Pour confirmer l’affiche et l’horaire : consulte nos réseaux ou contacte-nous.</p>
+            <a class="btn btn-primary" href="#contact">Nous contacter</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- INSCRIPTION -->
+    <section class="section" id="inscription">
+      <div class="container">
+        <header class="section-header">
+          <h2>Inscription</h2>
+          <p>Demande d’essai / d’inscription (formulaire vitrine).</p>
+        </header>
+
+        <div class="form-card">
+          <form action="#" method="post">
+            <div class="grid-form">
+              <div class="field">
+                <label for="nom">Nom</label>
+                <input id="nom" name="nom" type="text" placeholder="Dupont" required />
+              </div>
+
+              <div class="field">
+                <label for="prenom">Prénom</label>
+                <input id="prenom" name="prenom" type="text" placeholder="Camille" required />
+              </div>
+
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="camille@email.com" required />
+              </div>
+
+              <div class="field">
+                <label for="categorie">Catégorie</label>
+                <select id="categorie" name="categorie">
+                  <option>École de foot</option>
+                  <option>Jeunes</option>
+                  <option>Seniors</option>
+                  <option>Féminines</option>
+                  <option>Loisir</option>
+                </select>
+              </div>
+
+              <div class="field full">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Ex : Je souhaite faire un essai la semaine prochaine."
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit">Envoyer</button>
+              <button class="btn btn-ghost" type="reset">Effacer</button>
+              <p class="note">
+                Ce formulaire est un exemple (action="#"). Pour un vrai envoi, il faut un serveur / service de formulaire.
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section alt" id="contact">
+      <div class="container">
+        <header class="section-header">
+          <h2>Contact</h2>
+          <p>On répond rapidement aux demandes d’essai.</p>
+        </header>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Coordonnées</h3>
+            <address class="address">
+              <p><strong>FC Horizon</strong></p>
+              <p>Stade Municipal, 123 rue du Stade, 00000 Ville</p>
+              <p>Tél : <a href="tel:+33000000000">+33 0 00 00 00 00</a></p>
+              <p>Email : <a href="mailto:contact@fchorizon.example">contact@fchorizon.example</a></p>
+            </address>
+
+            <div class="social">
+              <a href="#" rel="nofollow">Instagram</a>
+              <a href="#" rel="nofollow">Facebook</a>
+              <a href="#" rel="nofollow">YouTube</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Photo du stade</h3>
+            <img
+              class="img-wide"
+              src="https://images.unsplash.com/photo-1508098682722-e99c643e7f0b?auto=format&fit=crop&w=1400&q=70"
+              alt="Stade de football"
+              loading="lazy"
+            />
+            <p class="note">Astuce : remplace cette image par une photo de ton stade dans /images.</p>
+          </div>
+        </div>
+
+        <p class="back-top"><a href="#top">↑ Retour en haut</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 FC Horizon — Tous droits réservés.</p>
+      <p class="small">Site vitrine (exemple) — HTML + CSS.</p>
+    </div>
+  </footer>
+</body>
+</html>
