@@ -2,9 +2,9 @@
    Modifie ces 3 couleurs pour coller à ton club !
 */
 :root{
-  --club-primary: #0b3d91;   /* couleur principale (ex : bleu) */
-  --club-secondary: #d61f2c; /* couleur secondaire (ex : rouge) */
-  --club-bg: #0b1220;        /* fond sombre */
+  --club-primary: #1a7b3a;   /* couleur principale (vert) */
+  --club-secondary: #ffffff; /* couleur secondaire (blanc) */
+  --club-bg: #0a1410;        /* fond sombre */
   --text: #eaf0ff;
   --muted: rgba(234,240,255,0.75);
   --card: rgba(255,255,255,0.06);
