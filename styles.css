@@ -1,16 +1,16 @@
 /* ============ Thème du club ============
    Modifie ces 3 couleurs pour coller à ton club !
 */
-:root{
-  --club-primary: #1a7b3a;   /* couleur principale (vert) */
-  --club-secondary: #ffffff; /* couleur secondaire (blanc) */
-  --club-bg: #0a1410;        /* fond sombre */
-  --text: #eaf0ff;
-  --muted: rgba(234,240,255,0.75);
-  --card: rgba(255,255,255,0.06);
-  --border: rgba(255,255,255,0.12);
-  --shadow: 0 10px 30px rgba(0,0,0,0.35);
-  --radius: 16px;
+:root {
+    --club-primary: #e62ce9;
+    --club-secondary: #2b1e94;
+    --club-bg: #74396d;
+    --text: #ccbcd3;
+    --muted: rgba(234, 240, 255, 0.75);
+    --card: rgba(255, 255, 255, 0.06);
+    --border: rgba(255, 255, 255, 0.12);
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    --radius: 16px;
 }
 
 *{ box-sizing: border-box; }
